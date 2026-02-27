@@ -53,7 +53,22 @@ nav.scrolled{border-bottom-color:rgba(203,213,225,.4)}
 .card-label{font-family:'JetBrains Mono',monospace;font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:.4rem}
 .card-value{font-family:'Fraunces',serif;font-size:1.1rem;color:var(--ink);font-weight:600;line-height:1.3}
 
-/* TEACHING - featured */
+/* TEACHING DROPDOWNS */
+.teach-group{margin-bottom:1rem}
+.teach-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;padding:1.1rem 1.4rem;background:rgba(255,255,255,.05);border:1px solid rgba(203,213,225,.1);border-radius:10px;cursor:pointer;transition:all .3s;font-family:inherit}
+.teach-toggle:hover{background:rgba(255,255,255,.08);border-color:rgba(59,130,246,.2)}
+.teach-toggle .tg-left{display:flex;align-items:center;gap:.8rem}
+.teach-toggle .tg-inst{font-family:'Fraunces',serif;font-size:1.1rem;color:var(--snow);font-weight:600}
+.teach-toggle .tg-count{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--sky);background:rgba(59,130,246,.12);padding:.2rem .55rem;border-radius:12px}
+.teach-toggle .tg-arrow{color:var(--soft);transition:transform .3s;font-size:.8rem}
+.teach-group.open .teach-toggle{border-bottom-left-radius:0;border-bottom-right-radius:0;border-color:rgba(59,130,246,.2)}
+.teach-group.open .tg-arrow{transform:rotate(180deg)}
+.teach-panel{max-height:0;overflow:hidden;transition:max-height .4s ease;border:1px solid transparent;border-top:none;border-radius:0 0 10px 10px}
+.teach-group.open .teach-panel{border-color:rgba(203,213,225,.1);border-top:none}
+.teach-panel-inner{padding:.6rem}
+.teach-panel .teach-card{background:rgba(255,255,255,.03);border:1px solid rgba(203,213,225,.06);border-radius:8px;padding:1rem 1.2rem;margin-bottom:.4rem;transition:all .2s}
+.teach-panel .teach-card:last-child{margin-bottom:0}
+.teach-panel .teach-card:hover{background:rgba(255,255,255,.06)}
 .teach-sec{background:var(--ink);padding:5rem 4rem;position:relative;overflow:hidden}
 .teach-sec::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 20%,rgba(59,130,246,.08),transparent 50%);pointer-events:none}
 .teach-inner{max-width:1100px;margin:0 auto;position:relative;z-index:2}
@@ -215,25 +230,37 @@ nav{padding:.7rem 1.2rem}
 <!-- TEACHING -->
 <section class="teach-sec" id="teaching"><div class="teach-inner">
 <div class="sh fi"><span class="sn">Teaching</span><h2 class="stitle">Courses</h2></div>
-<div class="teach-grid">
-<div class="teach-card fi"><div class="teach-inst">Stevens Institute of Technology</div><div class="teach-code">AAI/CPE/EE 551</div><div class="teach-name">Engineering Programming: Python</div></div>
-<div class="teach-card fi"><div class="teach-inst">Stevens Institute of Technology</div><div class="teach-code">EE 553</div><div class="teach-name">Engineering Programming: C++</div></div>
-<div class="teach-card fi"><div class="teach-inst">Stevens Institute of Technology</div><div class="teach-code">AAI/CPE/EE 595</div><div class="teach-name">Applied Machine Learning</div></div>
-<div class="teach-card fi"><div class="teach-inst">Stevens Institute of Technology</div><div class="teach-code">ENGR 116</div><div class="teach-name">Intro to Programming & Algorithmic Thinking</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 102</div><div class="teach-name">CS I: Introduction to Game Programming</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 107</div><div class="teach-name">CS I: Computational Physics</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 111</div><div class="teach-name">Computer Science II</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 210</div><div class="teach-name">Software Engineering</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 220</div><div class="teach-name">Data Structures and Algorithms</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 305</div><div class="teach-name">Database Systems</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 310</div><div class="teach-name">Programming Languages</div></div>
-<div class="teach-card fi"><div class="teach-inst">Muhlenberg College</div><div class="teach-code">CSI 350</div><div class="teach-name">Operating Systems</div></div>
-<div class="teach-card fi"><div class="teach-inst">University of North Texas</div><div class="teach-code">CSCE 1030</div><div class="teach-name">Computer Science I</div></div>
-<div class="teach-card fi"><div class="teach-inst">University of North Texas</div><div class="teach-code">CSCE 2100</div><div class="teach-name">Foundations of Computing I</div></div>
-<div class="teach-card fi"><div class="teach-inst">University of North Texas</div><div class="teach-code">CSCE 2110</div><div class="teach-name">Foundations of Computing II</div></div>
-<div class="teach-card fi"><div class="teach-inst">University of North Texas</div><div class="teach-code">CSCE 4010</div><div class="teach-name">Social Issues in Computing</div></div>
-<div class="teach-card fi"><div class="teach-inst">University of North Texas</div><div class="teach-code">CSCE 4011</div><div class="teach-name">Engineering Ethics</div></div>
-</div>
+<div class="teach-group open" onclick="this.classList.toggle('open');const p=this.querySelector('.teach-panel');p.style.maxHeight=this.classList.contains('open')?p.scrollHeight+'px':'0'">
+<button class="teach-toggle"><div class="tg-left"><span class="tg-inst">Stevens Institute of Technology</span><span class="tg-count">4 courses</span></div><span class="tg-arrow">&#9662;</span></button>
+<div class="teach-panel" style="max-height:600px"><div class="teach-panel-inner">
+<div class="teach-card fi"><div class="teach-code">AAI/CPE/EE 551</div><div class="teach-name">Engineering Programming: Python</div></div>
+<div class="teach-card fi"><div class="teach-code">EE 553</div><div class="teach-name">Engineering Programming: C++</div></div>
+<div class="teach-card fi"><div class="teach-code">AAI/CPE/EE 595</div><div class="teach-name">Applied Machine Learning</div></div>
+<div class="teach-card fi"><div class="teach-code">ENGR 116</div><div class="teach-name">Intro to Programming & Algorithmic Thinking</div></div>
+</div></div></div>
+
+<div class="teach-group" onclick="this.classList.toggle('open');const p=this.querySelector('.teach-panel');p.style.maxHeight=this.classList.contains('open')?p.scrollHeight+'px':'0'">
+<button class="teach-toggle"><div class="tg-left"><span class="tg-inst">Muhlenberg College</span><span class="tg-count">8 courses</span></div><span class="tg-arrow">&#9662;</span></button>
+<div class="teach-panel"><div class="teach-panel-inner">
+<div class="teach-card"><div class="teach-code">CSI 102</div><div class="teach-name">CS I: Introduction to Game Programming</div></div>
+<div class="teach-card"><div class="teach-code">CSI 107</div><div class="teach-name">CS I: Computational Physics</div></div>
+<div class="teach-card"><div class="teach-code">CSI 111</div><div class="teach-name">Computer Science II</div></div>
+<div class="teach-card"><div class="teach-code">CSI 210</div><div class="teach-name">Software Engineering</div></div>
+<div class="teach-card"><div class="teach-code">CSI 220</div><div class="teach-name">Data Structures and Algorithms</div></div>
+<div class="teach-card"><div class="teach-code">CSI 305</div><div class="teach-name">Database Systems</div></div>
+<div class="teach-card"><div class="teach-code">CSI 310</div><div class="teach-name">Programming Languages</div></div>
+<div class="teach-card"><div class="teach-code">CSI 350</div><div class="teach-name">Operating Systems</div></div>
+</div></div></div>
+
+<div class="teach-group" onclick="this.classList.toggle('open');const p=this.querySelector('.teach-panel');p.style.maxHeight=this.classList.contains('open')?p.scrollHeight+'px':'0'">
+<button class="teach-toggle"><div class="tg-left"><span class="tg-inst">University of North Texas</span><span class="tg-count">5 courses</span></div><span class="tg-arrow">&#9662;</span></button>
+<div class="teach-panel"><div class="teach-panel-inner">
+<div class="teach-card"><div class="teach-code">CSCE 1030</div><div class="teach-name">Computer Science I</div></div>
+<div class="teach-card"><div class="teach-code">CSCE 2100</div><div class="teach-name">Foundations of Computing I</div></div>
+<div class="teach-card"><div class="teach-code">CSCE 2110</div><div class="teach-name">Foundations of Computing II</div></div>
+<div class="teach-card"><div class="teach-code">CSCE 4010</div><div class="teach-name">Social Issues in Computing</div></div>
+<div class="teach-card"><div class="teach-code">CSCE 4011</div><div class="teach-name">Engineering Ethics</div></div>
+</div></div></div>
 </div></section>
 
 <!-- PUBLICATIONS -->
