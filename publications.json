@@ -1,18 +1,99 @@
 {
-  "last_updated": "2026-02-22 00:00 UTC",
-  "author": "Joseph Helsing",
-  "total_citations": 0,
+  "last_updated": "2026-03-30 07:26 UTC",
+  "author": "Joseph E. Helsing, Ph.D.",
+  "total_citations": 26,
   "h_index": 0,
   "i10_index": 0,
   "publications": [
-    {"title":"In-situ thermo-mechano-chemical transformation and consolidation of Sm-Co powders via a single-step route for bulk magnet fabrication","authors":"Gwalani, B., Malakar, A., Martin, A., Ishrak, F., Yu, A., Pole, M., Darsell, J., Wang, T., Helsing, J., Thornton, J., Lastovich, M.","year":"2025","venue":"Nature Communications","citations":0,"url":"https://pubmed.ncbi.nlm.nih.gov/40804238/","scholar_url":""},
-    {"title":"A distributed algorithm for solving large-scale p-median problems using expectation maximization","authors":"Gwalani, H., Helsing, J., Alshammari, S. M., Tiwari, C., Mikler, A.","year":"2024","venue":"PeerJ Computer Science","citations":0,"url":"https://peerj.com/articles/cs-2446/","scholar_url":""},
-    {"title":"Validation and Evaluation of Emergency Response Plans through Agent-Based Modeling and Simulation","authors":"Helsing, J., Gwalani, H., Alshammari, A., Mikler, A.","year":"2019","venue":"Winter Simulation Conference (WSC)","citations":0,"url":"https://ieeexplore.ieee.org/abstract/document/9004775","scholar_url":""},
-    {"title":"Disease Spread Simulation to Assess the Risk of Epidemics During the Global Mass Gathering of Hajj Pilgrimage","authors":"Alshammari, A., Gwalani, H., Helsing, J., Mikler, A.","year":"2019","venue":"Winter Simulation Conference (WSC)","citations":0,"url":"https://ieeexplore.ieee.org/abstract/document/9004669","scholar_url":""},
-    {"title":"A Method for Reducing the Severity of Epidemics by Allocating Vaccines According to Centrality","authors":"Drewniak, K., Helsing, J., Mikler, A.","year":"2014","venue":"ACM-BCB 2014","citations":0,"url":"https://doi.org/10.1145/2649387.2649409","scholar_url":""},
-    {"title":"Building an Effective Scaffolding Online Course: The Curriculum Design of the Introduction to UNIX/Linux Course","authors":"Cantu, B., Helsing, J., Moen, W.","year":"2014","venue":"E-Learn 2014","citations":0,"url":"","scholar_url":""},
-    {"title":"Teaching Tools, Applications, and Infrastructure for Digital Curation Through the use of a Virtual Lab","authors":"Helsing, J., Lewis, P., Warga, E.","year":"2013","venue":"iConference 2013 (Poster)","citations":0,"url":"","scholar_url":""},
-    {"title":"Scaffolding for Digital Curation Education: A One Week Unix Fundamentals Course","authors":"Helsing, J., Lewis, P., Moen, W. E., Salter, J.","year":"2013","venue":"ALISE 2013 (Poster)","citations":0,"url":"","scholar_url":""},
-    {"title":"Digital Curation and Data Management Capacity Building: Curricula and Workforce","authors":"Kim, J., Moen, W. E., Whitworth, C., Warga, E., Wakefield, J.S., Helsing, J., Halbert, M.","year":"2012","venue":"ALISE 2012 (Poster)","citations":0,"url":"","scholar_url":""}
+    {
+      "title": "In-situ thermo-mechano-chemical transformation and consolidation of Sm-Co powders via a single-step route for bulk magnet fabrication",
+      "authors": "Aniruddha Malakar and Andrew Martin and Farhan Ishrak and Caleb Schenck and Anqi Yu and Mayur Pole and Jens Darsell and Tianhao Wang and Joseph Helsing and John Thornton and Michael Lastovich and Libor Kovarik and Glenn Grant and Joseph B Tracy and Martin Thuo and Mert Efe and Bharat Gwalani",
+      "year": 2025,
+      "venue": "Nature Communications",
+      "citations": 1,
+      "url": "https://www.nature.com/articles/s41467-025-62804-9",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "A distributed algorithm for solving large-scale p-median problems using expectation maximization",
+      "authors": "Harsha Gwalani and Joseph Helsing and Sultanah M Alshammari and Chetan Tiwari and Armin R Mikler",
+      "year": 2024,
+      "venue": "PeerJ Computer Science",
+      "citations": 4,
+      "url": "https://peerj.com/articles/cs-2446/",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "title": "Single-Step Thermo-Mechano-Chemical Approach for Advance Magnet Manufacturing",
+      "authors": "Bharat Gwalani and Aniruddha Malakar and Andrew Martin and Farhan Ishrak and Anqi Yu and Mayur Pole and Jens Darsell and Tianhao Wang and Joseph Helsing and John Thornton and Michae Lastovich and Libor Kovarik and Glenn Grant and Joseph Tracy and Martin Thuo and Mert Efe",
+      "year": 2024,
+      "venue": "",
+      "citations": 0,
+      "url": "https://www.researchsquare.com/article/rs-5545269/latest",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:zYLM7Y9cAGgC"
+    },
+    {
+      "title": "Disease Spread Simulation To Assess The Risk Of Epidemics During The Global Mass Gathering Of Hajj Pilgrimage",
+      "authors": "Sultanah M Alshammari and Harsha Gwalani and Joseph E Helsing and Armin R Mikler",
+      "year": 2019,
+      "venue": "2019 Winter Simulation Conference (WSC)",
+      "citations": 13,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9004669/",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "title": "Validation and Evaluation of Emergency Response Plans through Agent-Based Modeling and Simulation",
+      "authors": "Joseph E Helsing and Harsha Gwalani and Armin R Mikler and Sultanah M Alshammari",
+      "year": 2019,
+      "venue": "2019 Winter Simulation Conference (WSC)",
+      "citations": 2,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9004775/",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "title": "A method for reducing the severity of epidemics by allocating vaccines according to centrality",
+      "authors": "Krzysztof Drewniak and Joseph Helsing and Armin R Mikler",
+      "year": 2014,
+      "venue": "Proceedings of the 5th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics",
+      "citations": 4,
+      "url": "https://dl.acm.org/doi/abs/10.1145/2649387.2649409",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "title": "Building an Effective Scaffolding Online Course: The Curriculum Design of the Introduction to UNIX/Linux Course",
+      "authors": "Brenda Cantu and Joseph Helsing and William Moen",
+      "year": 2014,
+      "venue": "E-Learn: World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education",
+      "citations": 0,
+      "url": "https://www.learntechlib.org/p/148795/",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "title": "Teaching tools, applications, and infrastructure for digital curation through the use of a virtual lab",
+      "authors": "Joseph Helsing and Paulette Lewis and Edward Warga",
+      "year": 2013,
+      "venue": "",
+      "citations": 2,
+      "url": "https://www.ideals.illinois.edu/items/35597",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "title": "A Framework to Simulate and Visualize Epidemics",
+      "authors": "Armin R Mikler and Marty O'Neill and Joseph Helsing and Taylor Camp and Saratchandra Indrakanti",
+      "year": 2013,
+      "venue": "",
+      "citations": 0,
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc172337/",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "title": "Teaching Tools, Applications, and Infrastructure for Digital Curation Through the Use of a Virtual Lab [Poster]",
+      "authors": "Joseph Helsing and Paulette Lewis and Edward Warga and Ana Krahmer",
+      "year": 2013,
+      "venue": "",
+      "citations": 0,
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc146591/",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:2osOgNQ5qMEC"
+    }
   ]
 }
