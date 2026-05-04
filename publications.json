@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-27 08:22 UTC",
+  "last_updated": "2026-05-04 08:28 UTC",
   "author": "Joseph E. Helsing, Ph.D.",
-  "total_citations": 27,
+  "total_citations": 29,
   "h_index": 0,
   "i10_index": 0,
   "publications": [
@@ -10,7 +10,7 @@
       "authors": "Aniruddha Malakar and Andrew Martin and Farhan Ishrak and Caleb Schenck and Anqi Yu and Mayur Pole and Jens Darsell and Tianhao Wang and Joseph Helsing and John Thornton and Michael Lastovich and Libor Kovarik and Glenn Grant and Joseph B Tracy and Martin Thuo and Mert Efe and Bharat Gwalani",
       "year": 2025,
       "venue": "Nature Communications",
-      "citations": 1,
+      "citations": 2,
       "url": "https://www.nature.com/articles/s41467-025-62804-9",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:Tyk-4Ss8FVUC"
     },
@@ -37,7 +37,7 @@
       "authors": "Sultanah M Alshammari and Harsha Gwalani and Joseph E Helsing and Armin R Mikler",
       "year": 2019,
       "venue": "2019 Winter Simulation Conference (WSC)",
-      "citations": 13,
+      "citations": 14,
       "url": "https://ieeexplore.ieee.org/abstract/document/9004669/",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=a1c7tYcAAAAJ&citation_for_view=a1c7tYcAAAAJ:UeHWp8X0CEIC"
     },
